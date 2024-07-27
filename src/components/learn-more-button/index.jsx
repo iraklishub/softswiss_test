@@ -1,12 +1,14 @@
-const learnMoreButton = ({ outlined }) => {
+const LearnMoreButton = ({ outlined }) => {
   return (
-    <a
-      href="/products"
-      className={`learn_more_button${outlined ? ' learn_more_button--outlined' : ''}`}
-    >
-      Learn More
+    <a href="/products">
+      <button
+        type="button"
+        className={`learn_more_button${outlined ? ' learn_more_button--outlined' : ''}`}
+      >
+        Learn More
+      </button>
     </a>
   )
 }
 
-export default learnMoreButton
+export default LearnMoreButton

@@ -1,6 +1,23 @@
 .main {
   padding: 40px 20px;
   background: linear-gradient(180.96deg, #0d1e48 -0.67%, #304571 100.39%);
+  width: 100%;
+  max-width: 768px;
+  &__cardList {
+    h2 {
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 21.6px;
+      color: white;
+    }
+    & > div {
+      display: grid;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      gap: 1.5rem;
+      margin-top: 20px;
+      margin-bottom: 25px;
+    }
+  }
   &__description {
     display: flex;
     flex-direction: column;
@@ -29,6 +46,18 @@
     min-width: 768px;
     max-width: 1248px;
     padding: 45px 40px;
+    &__cardList {
+      h2 {
+        font-size: 24px;
+        line-height: 28.8px;
+      }
+      & > div {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 2.5rem;
+        margin-top: 35px;
+        margin-bottom: 40px;
+      }
+    }
     &__description {
       h2 {
         font-size: 24px;
@@ -45,6 +74,17 @@
   .main {
     min-width: 1248px;
     padding: 55px 50px;
+    &__cardList {
+      h2 {
+        font-size: 32px;
+        line-height: 38.4px;
+      }
+      & > div {
+        gap: 3rem;
+        margin-top: 45px;
+        margin-bottom: 50px;
+      }
+    }
     &__description {
       h2 {
         font-size: 32px;

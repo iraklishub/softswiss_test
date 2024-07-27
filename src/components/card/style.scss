@@ -1,0 +1,74 @@
+.card {
+  color: white;
+  padding: 0 40px;
+  padding-top: 95px;
+  padding-bottom: 40px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  &:nth-of-type(1) {
+    background-image: url('../../assets/images/stars_sky1.jpeg');
+  }
+  &:nth-of-type(2) {
+    background-image: url('../../assets/images/stars_sky2.jpeg');
+  }
+  &:nth-of-type(3) {
+    background-image: url('../../assets/images/stars_sky3.jpeg');
+    padding-top: 75px;
+  }
+  &:nth-of-type(4) {
+    background-image: url('../../assets/images/stars_sky4.jpeg');
+  }
+  h3 {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 800;
+  }
+  p {
+    font-size: 16px;
+    line-height: 19.2px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    padding: 0 50px;
+    padding-top: 105px;
+    padding-bottom: 50px;
+    &:nth-of-type(3) {
+      padding-top: 105px;
+    }
+  }
+}
+
+@media (min-width: 1248px) {
+  .card {
+    padding: 0 60px;
+    padding-top: 115px;
+    padding-bottom: 60px;
+    &:nth-of-type(1) {
+      grid-column: span 2 / span 2;
+    }
+    &:nth-of-type(3) {
+      padding-top: 115px;
+    }
+    &:nth-of-type(4) {
+      grid-column: span 2 / span 2;
+    }
+    h3 {
+      font-size: 74px;
+      line-height: 74px;
+    }
+    p {
+      font-size: 26px;
+      line-height: 31.2px;
+    }
+    .learn_more_button {
+      width: 12rem;
+      height: 3.375rem;
+      font-size: 1.375rem;
+      line-height: 1.65rem;
+      padding: 0.875rem 2.5rem;
+    }
+  }
+}
