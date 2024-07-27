@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/softswiss_test/static/css/main.305b41ad.css",
+    "main.js": "/softswiss_test/static/js/main.7d1b1d36.js",
+    "static/media/banner_sky.jpeg": "/softswiss_test/static/media/banner_sky.2307badd490c555403c5.jpeg",
+    "static/media/stars_sky3.jpeg": "/softswiss_test/static/media/stars_sky3.16a3013d9cbb90d8b52d.jpeg",
+    "static/media/stars_sky4.jpeg": "/softswiss_test/static/media/stars_sky4.409eb2380710e2e37d46.jpeg",
+    "static/media/stars_sky1.jpeg": "/softswiss_test/static/media/stars_sky1.296b0897bb4402f4ec65.jpeg",
+    "static/media/stars_sky2.jpeg": "/softswiss_test/static/media/stars_sky2.dea86ad945b1d4842ce6.jpeg",
+    "static/media/earth.png": "/softswiss_test/static/media/earth.7ba33dec74f669dac517.png",
+    "static/media/rocket.png": "/softswiss_test/static/media/rocket.b8ce5270736f554f44ee.png",
+    "index.html": "/softswiss_test/index.html",
+    "main.305b41ad.css.map": "/softswiss_test/static/css/main.305b41ad.css.map",
+    "main.7d1b1d36.js.map": "/softswiss_test/static/js/main.7d1b1d36.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.305b41ad.css",
+    "static/js/main.7d1b1d36.js"
+  ]
+}
