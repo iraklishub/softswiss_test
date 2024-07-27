@@ -1,5 +1,5 @@
 .header {
-  position: relative;
+  position: fixed;
   z-index: 10;
   background-color: black;
   width: 100%;
@@ -28,10 +28,10 @@
     }
 
     #menu-toggle:checked ~ .menu {
-      position: absolute;
+      position: fixed;
       width: 100%;
       height: 100vh;
-      top: 3rem; /* 48px */
+      top: calc(3rem - 1px);
       left: 0;
       background-color: transparent;
       display: flex;
@@ -50,6 +50,7 @@
 
 @media (min-width: 768px) {
   .header {
+    position: relative;
     min-width: 768px;
     max-width: 1248px;
     height: 5rem; /* 80px */

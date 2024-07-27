@@ -3,7 +3,7 @@
   width: 100%;
   max-width: 768px;
   overflow: hidden;
-  height: 28rem; /* 448px */
+  height: 31rem; /* 496px */
   background-image: url('../../assets/images/banner_sky.jpeg');
   background-size: cover;
   background-position: center;
@@ -19,7 +19,7 @@
     position: absolute;
     display: flex;
     justify-content: center;
-    top: -25%;
+    top: -13%;
     left: 3%;
   }
   .banner__text {
@@ -47,6 +47,7 @@
   .banner {
     min-width: 768px;
     max-width: 1248px;
+    height: 28rem; /* 448px */
     align-items: center;
     justify-content: flex-start;
     padding-bottom: 0;
