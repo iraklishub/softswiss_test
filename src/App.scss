@@ -1,6 +1,5 @@
-// Layout styles
-@import 'layout/header/style.scss';
-@import 'layout/footer/style.scss';
+@import 'layout/style.scss';
+@import 'components/style.scss';
 
 .App {
   display: flex;

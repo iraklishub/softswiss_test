@@ -9,7 +9,7 @@ const Header = () => (
     </a>
     <nav className="navbar">
       <input type="checkbox" id="menu-toggle" className="display-none" />
-      <label for="menu-toggle" className="menu-icon">
+      <label htmlFor="menu-toggle" className="menu-icon">
         <img src={menu} alt="logo" className="menu-icon__icon" />
       </label>
       <ul className="menu">
