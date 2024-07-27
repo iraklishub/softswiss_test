@@ -1,12 +1,12 @@
 import './App.scss'
-import { Header, Banner, Footer } from './layout'
+import { Header, Banner, Footer, Main } from './layout'
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Banner />
-      <main className="main">hello softswiss</main>
+      <Main />
       <Footer />
     </div>
   )
