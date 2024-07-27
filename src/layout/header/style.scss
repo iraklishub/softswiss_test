@@ -30,7 +30,7 @@
     #menu-toggle:checked ~ .menu {
       position: absolute;
       width: 100%;
-      height: calc(100vh - 3rem);
+      height: 100vh;
       top: 3rem; /* 48px */
       left: 0;
       background-color: transparent;
