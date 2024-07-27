@@ -1,0 +1,29 @@
+.footer {
+  background-color: black;
+  width: 100%;
+  max-width: 768px;
+  height: 8rem; /* 128px */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  & > span {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 800;
+    color: #ebff00;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    min-width: 768px;
+  }
+}
+
+@media (min-width: 1248px) {
+  .footer {
+    min-width: 1248px;
+  }
+}
